@@ -1,4 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
+
+.logoName{
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+}
+
+.bannerHeight{
+    height: 600px;
+}
 
