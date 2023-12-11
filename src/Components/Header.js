@@ -6,8 +6,8 @@ import { InputField } from './InputField'
 
 export const Header = () => {
   return (
-    <div className="w-full h-20 flex">
-        <div className='h-full w-1/5 flex items-center justify-center overflow-hidden'>
+    <div className="relative w-full h-20 flex shadow-slate-100 shadow-2xl">
+        <div className='h-full w-1/5 flex items-center justify-center'>
             <img className="flex w-12 h-12 mr-5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Logo_Kemnaker.png/767px-Logo_Kemnaker.png" alt="" />
             <span className='flex text-3xl text-red-500 logoName'>V</span>
             <span className='flex text-3xl text-black mr-4 logoName'>MR</span>
